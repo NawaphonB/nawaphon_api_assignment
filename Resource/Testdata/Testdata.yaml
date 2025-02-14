@@ -1,0 +1,51 @@
+Base_URL: http://localhost:8082
+USERNAME: doppio
+PASSWORD: weBuildBestQa
+USERNAME_WRONG: doppio222
+PASSWORD_WRONG: 12345
+
+TC_001:
+  username: doppio222
+  password: 12345
+  status: error
+  message: invalid username or password 
+
+TC_003:
+  status: error
+  message: you do not have access to this resource
+
+TC_004:
+  asset_id: a133
+  asset_name: now asset
+  asset_type: 1
+  asset_inuse: True  
+
+TC_005:
+  asset_id: a001
+  asset_name: duplicate for sure
+  asset_type: 1
+  asset_inuse: True
+  status: failed
+  message: "id : a001 is already exists , please try with another id"
+
+TC_006:
+  asset_id: a134
+  asset_name: modify asset
+  asset_type: 2
+  asset_inuse: True
+  asset_id_mod: a134
+  asset_name_mod: modified
+  asset_type_mod: 1
+  asset_inuse_mod: True
+
+TC_007:
+  asset_id: a135
+  asset_name: To Be Deleted
+  asset_type: 3
+  asset_inuse: False
+
+TC_008:
+  asset_id: a998
+  status: failed
+  message: cannot find this id in database
+
