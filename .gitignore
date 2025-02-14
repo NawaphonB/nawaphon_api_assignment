@@ -1,0 +1,10 @@
+# Ignore Robot Framework log and output files
+log.html
+output.xml
+report.html
+*.log
+*.png
+*.gif
+*.jpg
+*.jpeg
+*.bmp

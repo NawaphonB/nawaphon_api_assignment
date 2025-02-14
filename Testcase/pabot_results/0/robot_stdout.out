@@ -1,0 +1,23 @@
+==============================================================================
+Testcase                                                                      
+==============================================================================
+TC-001 Verify when input wrong username or password, API should re... | PASS |
+------------------------------------------------------------------------------
+TC-002 Verify That Can Get Asset List From Get API correctly          | PASS |
+------------------------------------------------------------------------------
+TC-003 Verify that get asset API always require valid token           | PASS |
+------------------------------------------------------------------------------
+TC-004 Verify that create asset API can work correctly                | PASS |
+------------------------------------------------------------------------------
+TC-005 Verify that cannot create asset with duplicated ID             | PASS |
+------------------------------------------------------------------------------
+TC-006 Verify that modify asset API can work correctly                | PASS |
+------------------------------------------------------------------------------
+TC-007 Verify that delete asset API can work correctly                | PASS |
+------------------------------------------------------------------------------
+TC-008 Verify that cannot delete asset which ID does not exists       | PASS |
+------------------------------------------------------------------------------
+Testcase                                                              | PASS |
+8 tests, 8 passed, 0 failed
+==============================================================================
+Output:  C:\Users\UsEr\Documents\GitHub\nawaphon_api_assignment\Testcase\pabot_results\0\output.xml
