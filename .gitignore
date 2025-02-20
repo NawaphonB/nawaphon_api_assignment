@@ -8,3 +8,5 @@ report.html
 *.jpg
 *.jpeg
 *.bmp
+pabot_lock
+pabot_results.xml

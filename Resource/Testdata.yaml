@@ -1,6 +1,0 @@
-Base_URL : http://localhost:8082
-
-TC_001 :
-  username : doppio222
-  password : 12345
-  code : 401
