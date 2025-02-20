@@ -1,7 +1,6 @@
 *** Settings ***
 Library     RequestsLibrary
 Library     BuiltIn
-Resource    ./Keyword/Verified_Keyword.robot
 Resource    ./Keyword/common_Keyword.robot
 Library     SeleniumLibrary
 
